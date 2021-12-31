@@ -32,11 +32,13 @@ const DetailContainer = styled.div`
   min-width: 400px;
   min-height: 350px;
   padding: 20px 40px;
+  margin-top: 100px;
 
   @media (max-width: 768px) {
     margin-top: 40px;
     min-width: 300px;
     min-height: 200px;
+    border: none;
   }
 `;
 

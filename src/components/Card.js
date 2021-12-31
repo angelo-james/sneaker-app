@@ -7,7 +7,7 @@ const CardContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 20px;
   background: url(${(props) => props.image}) no-repeat center center / cover;
@@ -35,6 +35,7 @@ const CardGradient = styled.div`
 
 const CardText = styled.div`
   position: absolute;
+  padding-top: 40px;
 `;
 
 const CardTitle = styled.p`
