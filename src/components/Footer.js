@@ -7,10 +7,15 @@ const FooterContainer = styled.div`
   margin: 20px 0;
 `;
 
+const FooterText = styled.p`
+  padding-top: 20px;
+  text-transform: uppercase;
+`;
+
 export default function Footer() {
   return (
-    <FooterContainer class="footer">
-      <h4 style={{ paddingTop: "20px" }}>Made with🖤 by AJA</h4>
+    <FooterContainer>
+      <FooterText>Made with🖤 by AJA</FooterText>
     </FooterContainer>
   );
 }
