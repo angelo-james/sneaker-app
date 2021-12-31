@@ -16,7 +16,8 @@ const mockData = [
     name: "Patent Bred",
     image: patentBred,
     price: "free.99",
-    detail: "red | black | white",
+    color: "red | black | white",
+    detail: `A colorway synonymous with His Airness for over 35 years, the Air Jordan 1 Black and Red returns this season to shine like never before. Made famous by its "banned" mythology and MJ's majestical jumps during the 1985 dunk contest, this edition is covered in patent leather, adding a touch of luxury to one of MJ's most legendary looks.`,
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ const mockData = [
     name: "Dark Mocha",
     image: darkMocha,
     price: "free.99",
-    detail: "white | mocha | black",
+    color: "white | mocha | black",
+    detail: `Detail goes here....`,
   },
   {
     id: 3,
@@ -32,7 +34,8 @@ const mockData = [
     name: "Chicago",
     image: chicago,
     price: "free.99",
-    detail: "red | black | cream",
+    color: "red | black | cream",
+    detail: `Detail goes here....`,
   },
   {
     id: 4,
@@ -40,7 +43,8 @@ const mockData = [
     name: "Fearless",
     image: fearless,
     price: "free.99",
-    detail: "nc blue | black | white | red",
+    color: "nc blue | black | white | red",
+    detail: `Detail goes here....`,
   },
   {
     id: 5,
@@ -48,7 +52,8 @@ const mockData = [
     name: "Shadow",
     image: shadow,
     price: "free.99",
-    detail: "black | gray | white",
+    color: "black | gray | white",
+    detail: `Detail goes here....`,
   },
   {
     id: 6,
@@ -56,7 +61,8 @@ const mockData = [
     name: "University Blue",
     image: universityBlue,
     price: "free.99",
-    detail: "nc blue | black | white",
+    color: "nc blue | black | white",
+    detail: `Detail goes here....`,
   },
   {
     id: 7,
@@ -64,7 +70,8 @@ const mockData = [
     name: "Crimson Tint",
     image: crimsonTint,
     price: "free.99",
-    detail: "crimson | black | white",
+    color: "crimson | black | white",
+    detail: `Detail goes here....`,
   },
   {
     id: 8,
@@ -72,7 +79,8 @@ const mockData = [
     name: "Royal",
     image: royal,
     price: "free.99",
-    detail: "royal blue | black | white",
+    color: "royal blue | black | white",
+    detail: `Detail goes here....`,
   },
   {
     id: 9,
@@ -80,7 +88,8 @@ const mockData = [
     name: "Bred Toe",
     image: bredToe,
     price: "free.99",
-    detail: "red | black | white",
+    color: "red | black | white",
+    detail: `Detail goes here....`,
   },
   {
     id: 10,
@@ -88,7 +97,8 @@ const mockData = [
     name: "Shattered Backboard",
     image: shatteredBackboard,
     price: "free.99",
-    detail: "orange | black | white",
+    color: "orange | black | white",
+    detail: `Detail goes here....`,
   },
 ];
 
