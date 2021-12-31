@@ -6,20 +6,19 @@ export default function ProductDetailPage() {
 
   return (
     <div>
-      {mockData.map((md) => {
-        if (md.id == id) {
-          return (
-            <div key={id}>
-              <p>{md.type}</p>
-              <p>{md.name}</p>
-              <p>{md.price}</p>
-              <p>{md.detail}</p>
-              <img src={md.image} alt="jordan 1"></img>
-            </div>
-          );
-        }
-      })}
-
+      {mockData.map((md) =>
+        md.id === +id ? (
+          <div key={id}>
+            <p>{md.type}</p>
+            <p>{md.name}</p>
+            <p>{md.price}</p>
+            <p>{md.detail}</p>
+            <img src={md.image} alt="jordan 1"></img>
+          </div>
+        ) : (
+          false
+        )
+      )}
       <button>Add to Cart</button>
     </div>
   );
