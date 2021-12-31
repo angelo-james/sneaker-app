@@ -25,7 +25,7 @@ const mockData = [
   {
     id: 3,
     type: "Off White X Air Jordan 1",
-    name: "fearless",
+    name: "Chicago",
     image: chicago,
   },
   {

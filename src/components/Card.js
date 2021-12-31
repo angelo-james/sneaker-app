@@ -11,6 +11,11 @@ const CardContainer = styled.div`
   align-items: center;
   padding-bottom: 20px;
   background: url(${(props) => props.image}) no-repeat center center / cover;
+
+  @media (max-width: 768px) {
+    height: 380px;
+    width: 380px;
+  }
 `;
 
 const CardGradient = styled.div`
