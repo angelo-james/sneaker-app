@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { mockData } from "../constant/mockData";
 import { useParams } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { increment } from "../features/cart/cartSlice";
 
 const Container = styled.div`
   display: flex;
@@ -98,6 +100,7 @@ const StyledButton = styled.button`
 
 export default function ProductDetailPage() {
   let { id } = useParams();
+  const dispatch = useDispatch();
 
   return (
     <>
@@ -111,7 +114,9 @@ export default function ProductDetailPage() {
               <Detail>{md.detail}</Detail>
               <Price>{md.price}</Price>
               <Color>{md.color}</Color>
-              <StyledButton>Add to Cart</StyledButton>
+              <StyledButton onClick={() => dispatch(increment())}>
+                Add to Cart
+              </StyledButton>
             </DetailContainer>
           </Container>
         ) : (
